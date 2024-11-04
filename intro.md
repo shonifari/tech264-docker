@@ -92,5 +92,3 @@ Docker is a platform that enables developers to automate the deployment of appli
 One notable success story is Spotify, which uses Docker to streamline its development and deployment processes. By containerizing their applications, Spotify achieved faster deployment times, improved scalability, and more efficient resource utilization.
 
 ---
-
-This document provides a high-level overview of Docker, Kubernetes, and related concepts. Feel free to dive deeper into each section as needed!

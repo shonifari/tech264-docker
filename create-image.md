@@ -1,5 +1,17 @@
 # Creating a Docker Image from a Running Container and Pushing It to Docker Hub
 
+- [Creating a Docker Image from a Running Container and Pushing It to Docker Hub](#creating-a-docker-image-from-a-running-container-and-pushing-it-to-docker-hub)
+  - [Prerequisites](#prerequisites)
+  - [Steps](#steps)
+    - [1. Create a Container (if not already running)](#1-create-a-container-if-not-already-running)
+    - [2. Commit the Running Container as an Image](#2-commit-the-running-container-as-an-image)
+    - [3. Log In to Docker Hub](#3-log-in-to-docker-hub)
+    - [4. Push the Image to Docker Hub](#4-push-the-image-to-docker-hub)
+    - [5. Verify the Image on Docker Hub](#5-verify-the-image-on-docker-hub)
+  - [Full Example](#full-example)
+  - [Additional Tips](#additional-tips)
+
+
 This guide covers how to:
 
 1. Create a Docker image from a running container.

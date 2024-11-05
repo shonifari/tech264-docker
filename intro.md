@@ -81,6 +81,8 @@ Docker is a platform that enables developers to automate the deployment of appli
 
 ### How It Works (Docker Architecture/API)
 
+![alt text](<tech264 (38).png>)
+
 - **Docker Engine**: Core component that runs and manages containers.
 - **Docker Images**: Read-only templates used to create containers.
 - **Docker Containers**: Instances of Docker images.

@@ -10,6 +10,15 @@ Before using Docker, ensure it is installed on your system. You can check the in
 docker --version
 ```
 
+## Windows extra step
+
+- **Create alias**: Needed to execute shell commands on containers
+
+  ```sh
+  alias docker="winpty docker"
+  ```
+
+
 ## Working with Images
 
 - **List Images**: Display all images on your system.

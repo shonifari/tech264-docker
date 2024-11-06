@@ -109,8 +109,8 @@ For example, to create an Nginx webserver:
 FROM nginx:latest
 
 # Copy any custom configuration files or HTML content, if needed
-COPY ./index.html /usr/share/nginx/html/index.html
-COPY ./video.mp4 /usr/share/nginx/html/video.mp4
+COPY ./index.html /usr/share/nginx/html/
+COPY ./video.mp4 /usr/share/nginx/html/
 
 # Expose port 80 to allow traffic to the container
 EXPOSE 80
@@ -168,3 +168,5 @@ Go to [Docker Hub](https://hub.docker.com/) and navigate to your repository to v
   ```bash
   docker tag <existing_image> <your_dockerhub_username>/<new_image_name>:<new_tag>
   ```
+
+![alt text](<Screenshot 2024-11-06 094101.png>)

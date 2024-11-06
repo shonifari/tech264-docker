@@ -169,4 +169,4 @@ Go to [Docker Hub](https://hub.docker.com/) and navigate to your repository to v
   docker tag <existing_image> <your_dockerhub_username>/<new_image_name>:<new_tag>
   ```
 
-![alt text](<Screenshot 2024-11-06 094101.png>)
+![alt text](<images/Screenshot 2024-11-06 094101.png>)

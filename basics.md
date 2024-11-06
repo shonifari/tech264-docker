@@ -1,5 +1,15 @@
 # Docker Common Commands
 
+- [Docker Common Commands](#docker-common-commands)
+  - [Installation and Setup](#installation-and-setup)
+  - [Windows extra step](#windows-extra-step)
+  - [Working with Images](#working-with-images)
+  - [Working with Containers](#working-with-containers)
+  - [Container Interaction](#container-interaction)
+  - [Clean Up](#clean-up)
+  - [Docker Compose](#docker-compose)
+  - [Conclusion](#conclusion)
+
 Docker is a powerful tool for creating, deploying, and managing containers. Below are some of the most commonly used Docker commands to help you get started.
 
 ## Installation and Setup
@@ -17,7 +27,6 @@ docker --version
   ```sh
   alias docker="winpty docker"
   ```
-
 
 ## Working with Images
 

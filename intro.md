@@ -1,5 +1,25 @@
 # Docker, Kubernetes, and Related Concepts
 
+- [Docker, Kubernetes, and Related Concepts](#docker-kubernetes-and-related-concepts)
+  - [Differences Between Virtualization and Containerization](#differences-between-virtualization-and-containerization)
+    - [Virtualization](#virtualization)
+    - [Containerization](#containerization)
+  - [What is Usually Included in a Container vs. Virtual Machine?](#what-is-usually-included-in-a-container-vs-virtual-machine)
+    - [Container](#container)
+    - [Virtual Machine](#virtual-machine)
+  - [Benefits of Each](#benefits-of-each)
+    - [Virtual Machine](#virtual-machine-1)
+    - [Container](#container-1)
+  - [Microservices](#microservices)
+    - [What Are They?](#what-are-they)
+    - [How Are They Made Possible?](#how-are-they-made-possible)
+    - [Benefits](#benefits)
+  - [Docker](#docker)
+    - [What Is It?](#what-is-it)
+    - [Alternatives](#alternatives)
+    - [How It Works (Docker Architecture/API)](#how-it-works-docker-architectureapi)
+    - [Success Story Using Docker](#success-story-using-docker)
+
 ## Differences Between Virtualization and Containerization
 
 ### Virtualization
@@ -81,7 +101,7 @@ Docker is a platform that enables developers to automate the deployment of appli
 
 ### How It Works (Docker Architecture/API)
 
-![alt text](<tech264 (38).png>)
+![alt text](<images/tech264 (38).png>)
 
 - **Docker Engine**: Core component that runs and manages containers.
 - **Docker Images**: Read-only templates used to create containers.

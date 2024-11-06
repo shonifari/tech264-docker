@@ -1,5 +1,22 @@
 # Kubernetes: A Comprehensive Overview
 
+- [Kubernetes: A Comprehensive Overview](#kubernetes-a-comprehensive-overview)
+  - [Why is Kubernetes Needed?](#why-is-kubernetes-needed)
+  - [Benefits of Kubernetes](#benefits-of-kubernetes)
+  - [Success Stories](#success-stories)
+  - [Kubernetes Architecture](#kubernetes-architecture)
+    - [Diagram](#diagram)
+    - [Components](#components)
+  - [The Cluster Setup](#the-cluster-setup)
+    - [Master vs. Worker Nodes](#master-vs-worker-nodes)
+  - [Pros and Cons of Managed Service vs. Self-Managed Kubernetes](#pros-and-cons-of-managed-service-vs-self-managed-kubernetes)
+  - [Control Plane vs. Data Plane](#control-plane-vs-data-plane)
+  - [Kubernetes Objects](#kubernetes-objects)
+    - [Ephemeral Nature of Pods](#ephemeral-nature-of-pods)
+  - [Mitigating Security Concerns with Containers](#mitigating-security-concerns-with-containers)
+  - [Maintained Images](#maintained-images)
+    - [Pros and Cons of Maintained Images](#pros-and-cons-of-maintained-images)
+
 ## Why is Kubernetes Needed?
 
 Kubernetes, often abbreviated as "K8s," is a powerful open-source platform for automating the deployment, scaling, and management of containerized applications. As organizations shift towards microservices and containerized architectures, Kubernetes addresses several challenges:

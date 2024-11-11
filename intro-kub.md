@@ -45,8 +45,6 @@ Many organizations have achieved significant operational improvements and cost s
 
 Kubernetes architecture comprises several key components, categorized into the **control plane** and **data plane**. Here’s a high-level diagram:
 
-![Kubernetes Architecture](#)
-
 ### Diagram
 
 - **Control Plane**: Manages the cluster, overseeing scheduling, maintaining cluster state, and managing deployments.

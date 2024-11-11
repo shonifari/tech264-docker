@@ -1,0 +1,29 @@
+version: '3'
+services:
+
+  # DB
+  mongo:
+    image: mongodb/mongodb-community-server:7.0.6-ubuntu2204
+    ports:
+      - "27017:27017"
+    command: ["mongod", "--bind_ip_all"]
+
+    volumes:
+      - mongo-data:/data/db
+
+  # APP
+  app:
+    image: shonifari8/sparta-app:v1
+    depends_on:
+      - mongo
+    ports:
+      - "80:3000"
+
+    environment:
+       DB_HOST: "mongodb://mongo:27017/posts"
+
+    command: sh -c "node seeds/seed.js && node app.js"
+
+
+volumes:
+  mongo-data:

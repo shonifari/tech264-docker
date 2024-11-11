@@ -7,7 +7,7 @@ LABEL mantainer="Karis Omotosho"
 # set the default working directory to /usr/src/app
 WORKDIR /usr/src/app
 
-# copy app folder (to same place as Dockerfile, then copy to default location in container)
+# copy app folder
 COPY app .
 
 # install dependencies with npm
